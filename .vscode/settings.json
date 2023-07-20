@@ -1,23 +1,28 @@
 {
-  "eslint.options": { "overrideConfigFile": "./.eslintrc.cjs" },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
   "[vue]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[javascript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[html]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[css]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
 }
